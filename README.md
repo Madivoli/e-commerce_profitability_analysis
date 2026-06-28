@@ -28,10 +28,10 @@ To explore the technical implementation of this pipeline and visualization layer
 
 ## 🛠️ Data Pipeline Architecture (Python Implementation)
 The data cleaning process achieved the following data-quality benchmarks:
-1. **Install and Import Pandas:** Installed the Pandas modules first since it is not pre-installed in the Jupyter Notebook IDE.
-2. **Loading the Data:** Loaded and read the CSV files into DataFrames. Since I was working with 3 files, I called the dataframes with readable names (orders, marketing, products).
+1. **Install and Import Pandas:** Installed the `Pandas` module first since it is not pre-installed in the Jupyter Notebook IDE.
+2. **Loading the Data:** Loaded and read the CSV files into DataFrames. Since I was working with 3 different files, I called the dataframes with readable names (orders, marketing spend, products).
 3. **Understanding the Data:** Used the `df.info()` command to check the column, what type it is, and how many non-null values it has. 
 4. **Handling Missing Values:** Checked for missing values. There were no NaN or missing values.
 5. **Converting Data Types:** Converted columns (e.g., `channel`, `payment_method`, `region`) from objects/strings to categorical data types to save memory and improve speed.
 6. **Saving the Clean Data:** Saved the cleaned data into a CSV file.
-7. **Creating a Database:** Installed the sqlite3 module. Created and saved the cleaned dataframe into databases (orders, marketing spend, and product) for further analysis using DBeaver's (Database Management Software) SQL and Tableau.
+7. **Creating a Database:** Installed the `sqlite3` module. Created and saved the cleaned dataframe into databases (orders, marketing spend, and product) for further analysis using DBeaver's (Database Management Software) SQL and Tableau.

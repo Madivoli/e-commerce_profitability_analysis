@@ -1,7 +1,7 @@
 
 
 
-# E-Commerce Customer Behavior & Transaction Analytics
+# BrightCart Profitability Analysis: A Deep Dive into D2C Margins and Marketing ROI
 
 ## 📌 Project Overview
 This repository contains an end-to-end data analytics project evaluating e-commerce transactional data. The objective is to engineer a clean data pipeline from raw, unstandardized data (order, marketing, and product logs) into an interactive executive dashboards and visualizations that surfaces insights on net profit margin, return & discount rates, return on advertisement spend (ROAS), cost per acquisition (CPA), cost per click (CPC), revenue & cost leakages, marketing attribution patterns, and so on.
@@ -13,7 +13,7 @@ To explore the technical implementation of this pipeline and visualization layer
 
 *   **Data Engineering and Pipelines:**
     *   *The complete automated data pipeline used for handling missing values, standardizing datetime objects, downcasting integer columns to memory-efficient types, and creating & saving database*:
-    *    [Python Data Cleaning Notebook](./scripts/orders.ipynb)
+    *    [Python Data Cleaning Notebook](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/orders.py)
     *    [Python Data Cleaning Notebook](./scripts/ecommerce_cleaning_pipeline.ipynb)
     *    [Python Data Cleaning Notebook](./scripts/ecommerce_cleaning_pipeline.ipynb) 
 *   **Data Layers:**
@@ -26,6 +26,10 @@ To explore the technical implementation of this pipeline and visualization layer
 
 ## 🛠️ Data Pipeline Architecture (Python Implementation)
 The data cleaning process achieved the following data-quality benchmarks:
-1. **Handling Missing Values:** Imputed missing values or dropped incomplete transaction strings where critical identifiers (e.g., `Customer ID`) were missing.
-2. **Feature Engineering:** Extracted `Order Month`, calculated `Total Spend per Invoice` ($Quantity \times UnitPrice$), and parsed geographic location markers.
-3. **Outlier Mitigation:** Filtered out negative quantities (returns/cancellations) into a dedicated returns dataframe to keep the core sales metrics pristine.
+1. **Install and Import Pandas:** Installed the Pandas modules first since it is not pre-installed in the Jupyter Notebook IDE.
+2. **Loading the Data:** Loaded and read the CSV files into DataFrames. Since I was working with 3 files, I called the dataframes with readable names (orders, marketing, products).
+3. **Understanding the Data:** Used the `df.info()` command to check the column, what type it is, and how many non-null values it has. 
+4. **Handling Missing Values:** Checked for missing values. There were no NaN or missing values.
+5. **Converting Data Types:** Converted columns (e.g., `channel`, `payment_method`, `region`) from objects/strings to categorical data types to save memory and improve speed.
+6. **Saving the Clean Data:** Saved the cleaned data into a CSV file.
+7. **Creating a Database:** Installed the sqlite3 module. Created and saved the cleaned dataframe into databases (orders, marketing spend, and product) for further analysis using DBeaver's (Database Management Software) SQL and Tableau.

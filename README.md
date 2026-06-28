@@ -1,22 +1,25 @@
-𝗕𝗿𝗶𝗴𝗵𝘁𝗖𝗮𝗿𝘁 𝗣𝗿𝗼𝗳𝗶𝘁𝗮𝗯𝗶𝗹𝗶𝘁𝘆 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀
+
 
 
 # E-Commerce Customer Behavior & Transaction Analytics
 
 ## 📌 Project Overview
-This repository contains an end-to-end data analytics project evaluating e-commerce transactional data. The objective is to engineer a clean data pipeline from raw, unstandardized purchase logs into an interactive executive dashboard that surfaces insights on customer lifetime value (CLV), cohort retention, and seasonal purchasing patterns.
+This repository contains an end-to-end data analytics project evaluating e-commerce transactional data. The objective is to engineer a clean data pipeline from raw, unstandardized order, marketing, and product logs into an interactive executive dashboard that surfaces insights on total net profit, revenue and cost leakages, and marketing attribution patterns.
 
 ---
 
-## 📂 Project Structure & Code Artifacts
+## 📂 Project Structure and Code Artifacts
 To explore the technical implementation of this pipeline and visualization layers, access the files directly via the links below:
 
-*   **Data Engineering & Pipelines:**
-    *   [Python Data Cleaning Notebook](./scripts/ecommerce_cleaning_pipeline.ipynb) — *The complete automated data pipeline used for handling missing values, standardizing datetime objects, and extracting feature variables (e.g., Cohort Month, Total Order Value).*
+*   **Data Engineering and Pipelines:**
+    *   *The complete automated data pipeline used for handling missing values, standardizing datetime objects, downcasting integer columns to memory-efficient types, and creating & saving database*:
+    *    [Python Data Cleaning Notebook](./scripts/orders.ipynb)
+    *    [Python Data Cleaning Notebook](./scripts/ecommerce_cleaning_pipeline.ipynb)
+    *    [Python Data Cleaning Notebook](./scripts/ecommerce_cleaning_pipeline.ipynb) 
 *   **Data Layers:**
     *   [Raw Transaction Dataset](./data/raw_ecommerce_transactions.csv) — *The uncleaned, raw transactional ledger containing initial format discrepancies and missing customer identifiers.*
     *   [Processed & Cleaned Dataset](./data/cleaned_ecommerce_transactions.csv) — *The optimized, structurally sound dataset engineered for direct ingestion into Tableau Desktop.*
-*   **Business Intelligence & Dashboards:**
+*   **Business Intelligence and Dashboards:**
     *   [Tableau Workbook (Packaged)](./dashboards/ecommerce_executive_analytics.twbx) — *The interactive workbook containing executive-ready visual stories, cohort matrices, and sales distribution models.*
 
 ---

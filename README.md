@@ -22,7 +22,8 @@ To explore the technical implementation of this pipeline and visualization layer
     *   [Tableau Workbook (Packaged)](./dashboards/ecommerce_executive_analytics.twbx) — *The interactive workbook containing executive-ready visual stories, dashboards, calculated fields, and parameters.*
 
 *   **Executive Report and Summary:**
-    *   [Executive Summary](./dashboards/ecommerce_executive_analytics.twbx) — *Summary of numerous reports containing main findings and numbers, recommendations, conclusion, and call-to-action sections for management
+    *   [Executive Summary](./dashboards/ecommerce_executive_analytics.twbx) — *Summary of numerous reports containing main findings and numbers, recommendations, conclusion, and call-to-action sections for management.*
+    *   [Profitability and Cost Analysis Report](./dashboards/ecommerce_executive_analytics.twbx)
 ---
 
 ## 🛠️ Data Pipeline Architecture (Python Implementation)

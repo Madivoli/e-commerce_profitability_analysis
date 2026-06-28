@@ -4,7 +4,7 @@
 # E-Commerce Customer Behavior & Transaction Analytics
 
 ## 📌 Project Overview
-This repository contains an end-to-end data analytics project evaluating e-commerce transactional data. The objective is to engineer a clean data pipeline from raw, unstandardized order, marketing, and product logs into an interactive executive dashboard that surfaces insights on total net profit, revenue and cost leakages, and marketing attribution patterns.
+This repository contains an end-to-end data analytics project evaluating e-commerce transactional data. The objective is to engineer a clean data pipeline from raw, unstandardized data (order, marketing, and product logs) into an interactive executive dashboards and visualizations that surfaces insights on net profit margin, return & discount rates, return on advertisement spend (ROAS), cost per acquisition (CPA), cost per click (CPC), revenue & cost leakages, marketing attribution patterns, and so on.
 
 ---
 

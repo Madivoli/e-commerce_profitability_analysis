@@ -8,22 +8,15 @@ E-Commerce Profitability Analysis
 
 
 # In[ ]:
-
-
 DATA PROCESSING, CLEANING, AND MANIPULATION
 
-
 # In[ ]:
-
 
 DATA PROCESSING
 
-
 # In[ ]:
 
-
 # 1. Importing the dataset
-
 
 # In[1]:
 

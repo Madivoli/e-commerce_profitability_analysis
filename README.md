@@ -12,16 +12,17 @@ This repository contains an end-to-end data analytics project evaluating e-comme
 To explore the technical implementation of this pipeline and visualization layers, access the files directly via the links below:
 
 *   **Data Engineering and Pipelines:**
-    *   *The complete automated data pipeline used for handling missing values, standardizing datetime objects, downcasting integer columns to memory-efficient types, and creating & saving database*:
-    *    [Python Data Cleaning Notebook](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/orders.py)
-    *    [Python Data Cleaning Notebook](./scripts/ecommerce_cleaning_pipeline.ipynb)
-    *    [Python Data Cleaning Notebook](./scripts/ecommerce_cleaning_pipeline.ipynb) 
+    *    [Python Data Cleaning Notebook](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/orders.py) — *The complete automated data pipeline used for handling missing values, standardizing datetime objects, downcasting integer columns to memory-efficient types, and creating & saving database*:
+
 *   **Data Layers:**
     *   [Raw Transaction Dataset](./data/raw_ecommerce_transactions.csv) — *The uncleaned, raw transactional ledger containing initial format discrepancies and missing customer identifiers.*
     *   [Processed & Cleaned Dataset](./data/cleaned_ecommerce_transactions.csv) — *The optimized, structurally sound dataset engineered for direct ingestion into Tableau Desktop.*
+      
 *   **Business Intelligence and Dashboards:**
-    *   [Tableau Workbook (Packaged)](./dashboards/ecommerce_executive_analytics.twbx) — *The interactive workbook containing executive-ready visual stories, cohort matrices, and sales distribution models.*
+    *   [Tableau Workbook (Packaged)](./dashboards/ecommerce_executive_analytics.twbx) — *The interactive workbook containing executive-ready visual stories, dashboards, calculated fields, and parameters.*
 
+*   **Executive Report and Summary:**
+    *   [Executive Summary](./dashboards/ecommerce_executive_analytics.twbx) — *Summary of numerous reports containing main findings and numbers, recommendations, conclusion, and call-to-action sections for management
 ---
 
 ## 🛠️ Data Pipeline Architecture (Python Implementation)

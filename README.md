@@ -16,7 +16,7 @@ To explore the technical implementation of this pipeline and visualization layer
     *   [Processed and Cleaned Dataset](./data/cleaned_ecommerce_transactions.csv) — *The optimized, structurally sound dataset engineered for direct ingestion into Tableau Desktop.*
 
 *   **Data Analysis:**
-    *   [SQL](./dashboards/ecommerce_executive_analytics.twbx) — *The repository of structured queries used to calculate margin percent, revenue & cost drivers, carry out marketing attribution and channel audit, etc.; Using SELECT statements, JOINS, GROUP BY & ORDER BY functions, WHERE filter, Common Table Expression (CTE), etc.*
+    *   [SQL](./dashboards/ecommerce_executive_analytics.twbx) — *The repository of structured queries used to calculate margin percent, revenue & cost drivers, carry out marketing attribution and channel audit, and so on. Using SELECT statements, JOINS, GROUP BY & ORDER BY functions, WHERE filter, Common Table Expression (CTE), etc.*
     *   [Excel](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/ROAS%20vs%20Actual%20ROI.xlsx) — *Pivot Tables, Pivot Charts, Conditional Formatting, Combi-Charts.*
 
 *   **Business Intelligence and Dashboards:**

@@ -1,6 +1,3 @@
-
-
-
 # BrightCart Profitability Analysis: A Deep Dive into D2C Margins and Marketing ROI
 
 ## 📌 Project Overview
@@ -17,7 +14,11 @@ To explore the technical implementation of this pipeline and visualization layer
 *   **Data Layers:**
     *   [Raw Transaction Dataset](./data/raw_ecommerce_transactions.csv) — *The uncleaned, raw transactional ledger containing initial format discrepancies and missing customer identifiers.*
     *   [Processed and Cleaned Dataset](./data/cleaned_ecommerce_transactions.csv) — *The optimized, structurally sound dataset engineered for direct ingestion into Tableau Desktop.*
-      
+
+*   **Data Analysis:**
+    *   [SQL](./dashboards/ecommerce_executive_analytics.twbx) — *The interactive workbook containing executive-ready visual stories, dashboards, calculated fields, and parameters.*
+    *   Excel - 
+
 *   **Business Intelligence and Dashboards:**
     *   [Tableau Workbook (Packaged)](./dashboards/ecommerce_executive_analytics.twbx) — *The interactive workbook containing executive-ready visual stories, dashboards, calculated fields, and parameters.*
 

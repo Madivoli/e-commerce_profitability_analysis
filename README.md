@@ -9,7 +9,7 @@ This repository contains an end-to-end data analytics project evaluating e-comme
 To explore the technical implementation of this pipeline and visualization layers, access the files directly via the links below:
 
 *   **Data Engineering and Pipelines:**
-    *    [Python Data Cleaning Notebook](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/orders.py) — *The complete automated data pipeline used for handling missing values, standardizing datetime objects, downcasting integer columns to memory-efficient types, and creating & saving database*:
+    *    [Python Data Cleaning Notebook](https://nbviewer.org/github/Madivoli/e-commerce_profitability_analysis/blob/main/orders.ipynb) — *The complete automated data pipeline used for handling missing values, standardizing datetime objects, downcasting integer columns to memory-efficient types, and creating & saving database*:
 
 *   **Data Layers:**
     *   [Raw Transaction Dataset](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/Dataset.zip) — *The uncleaned, raw transactional ledger containing initial format discrepancies and missing customer identifiers.*

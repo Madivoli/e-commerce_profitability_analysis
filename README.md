@@ -16,7 +16,7 @@ To explore the technical implementation of this pipeline and visualization layer
     *   [Processed and Cleaned Dataset](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/Cleaned.zip) — *The optimized, structurally sound datasets engineered for direct ingestion into DBeaver, Excel, and Tableau Desktop.*
 
 *   **Data Analysis:**
-    *   [SQL](./dashboards/ecommerce_executive_analytics.twbx) — *The repository of structured queries used to calculate margin percent, determine revenue and cost drivers, carry out marketing attribution and channel audit, and so on. Using SELECT statements, JOINS, GROUP BY & ORDER BY functions, WHERE filter, Common Table Expression (CTE), etc.*
+    *   [SQL](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/brightcart_analysis.sql) — *The repository of structured queries used to calculate margin percent, determine revenue and cost drivers, carry out marketing attribution and channel audit, and so on. Using SELECT statements, JOINS, GROUP BY & ORDER BY functions, WHERE filter, Common Table Expression (CTE), etc.*
     *   [Excel](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/ROAS%20vs%20Actual%20ROI.xlsx) — *Using Pivot Tables, Pivot Charts, Conditional Formatting, Combi-Charts, 100% Stacked Bar Charts, and Line Charts.*
 
 *   **Business Intelligence and Dashboards:**

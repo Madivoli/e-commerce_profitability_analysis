@@ -16,15 +16,15 @@ To explore the technical implementation of this pipeline and visualization layer
     *   [Processed and Cleaned Dataset](./data/cleaned_ecommerce_transactions.csv) — *The optimized, structurally sound dataset engineered for direct ingestion into Tableau Desktop.*
 
 *   **Data Analysis:**
-    *   [SQL](./dashboards/ecommerce_executive_analytics.twbx) — *The interactive workbook containing executive-ready visual stories, dashboards, calculated fields, and parameters.*
-    *   Excel - 
+    *   [SQL](./dashboards/ecommerce_executive_analytics.twbx) — *The repository of structured queries used to extract patient profiles, diagnose distributions, and calculate utilization rates.
+    *   [Excel](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/ROAS%20vs%20Actual%20ROI.xlsx)- Pivot Tables, Pivot Charts, Conditional Formatting, Combi-Charts
 
 *   **Business Intelligence and Dashboards:**
     *   [Tableau Workbook (Packaged)](./dashboards/ecommerce_executive_analytics.twbx) — *The interactive workbook containing executive-ready visual stories, dashboards, calculated fields, and parameters.*
 
 *   **Executive Report and Summary:**
-    *   [Executive Summary](./dashboards/ecommerce_executive_analytics.twbx) — *Summary of numerous reports containing main findings and numbers, recommendations, conclusion, and call-to-action sections for management.*
-    *   [Profitability and Cost Analysis Report](./dashboards/ecommerce_executive_analytics.twbx)
+    *   [Executive Summary](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/EXECUTIVESUMMARY.md) — *Summary of numerous reports containing main findings and numbers, recommendations, conclusion, and call-to-action sections for management.*
+    *   [Profitability and Cost Analysis Report](https://github.com/Madivoli/e-commerce_profitability_analysis/blob/main/PROFITABILITY%20AND%20COST%20ANALYSIS%20REPORT.pdf)
 ---
 
 ## 🛠️ Data Pipeline Architecture (Python Implementation)
